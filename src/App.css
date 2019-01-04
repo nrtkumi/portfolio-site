@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@font-face {
-    font-family: 'kokumr';
-    src: url('./fonts/kokumr.ttf');
-}
 
 body {
     margin: 0;
-    font-family: 'kokumr';
+    font-family: 'Sawarabi Mincho';
     padding-bottom: 100px;
 }
 
