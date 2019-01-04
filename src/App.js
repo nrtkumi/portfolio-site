@@ -42,7 +42,22 @@ class App extends Component {
 
   onSubmit(e) {
     e.preventDefault();
-    console.log("Submit");
+
+    const { address, body } = this.state;
+
+    if (address === "" || body === "") {
+      alert('入力項目が足りません');
+      return;
+    }
+
+    let docId = String(new Date().getTime());
+    let docData = { address, body };
+
+    db.collection('contacts').doc(docId).set(docData).then(() => {
+      alert('送信完了しました');
+    }).catch((error) => {
+      alert('エラーが発生しました\n' + error);
+    });
   }
 
   render() {
@@ -73,7 +88,7 @@ class App extends Component {
               <p>Kubernetes</p>
               <p>AWS</p>
               <p>GCP</p>
-            </div>  
+            </div>
           </div>
 
           <div className="content">
