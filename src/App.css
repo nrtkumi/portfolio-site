@@ -7,7 +7,10 @@
 body {
     margin: 0;
     font-family: 'kokumr';
+    padding-bottom: 100px;
 }
+
+a { color: black; }
 
 .top {
     font-family: 'Pacifico', cursive;
@@ -61,7 +64,6 @@ body {
 
 .body {
     padding-left: 2em;
-    padding-bottom: 100px;
 }
 
 @media (max-width: 800px) {

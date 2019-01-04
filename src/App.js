@@ -42,7 +42,6 @@ class App extends Component {
             <div className="body">
               <p>奈良拓海</p>
               <p>1998年4月28日生</p>
-              <p>栃木県栃木市出身</p>
               <p>東京都港区在住</p>
               <p>ソフトウェアエンジニア</p>
             </div>
@@ -56,8 +55,16 @@ class App extends Component {
               <p>Kubernetes</p>
               <p>AWS</p>
               <p>GCP</p>
+            </div>  
+          </div>
+
+          <div className="content">
+            <h1>Contact</h1>
+            <div className="body">
+              <p><a href="https://twitter.com/nyaratakumi">Twitter</a></p>
+              <p><a href="https://www.facebook.com/nyaratakumi">Facebook</a></p>
+              <p><a href="https://github.com/nyaratakumi">GitHub</a></p>
             </div>
-            
           </div>
         </div>
       </div>
