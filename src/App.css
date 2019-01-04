@@ -12,6 +12,26 @@ body {
 
 a { color: black; }
 
+form p {
+    margin-bottom: 5px;
+}
+
+.form {
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: #7c7c7c 1px solid;
+}
+
+.submit {
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: #7c7c7c 1px solid;
+}
+
 .top {
     font-family: 'Pacifico', cursive;
     display: flex;
@@ -83,7 +103,7 @@ a { color: black; }
     }
 
     .contents {
-        width: 50vw;
+        width: 40vw;
         margin: 0 auto;
     }
 }
