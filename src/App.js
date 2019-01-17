@@ -94,9 +94,9 @@ class App extends Component {
           <div className="content">
             <h1>Contact</h1>
             <div className="body">
-              <p><a href="https://twitter.com/nyaratakumi">Twitter</a></p>
-              <p><a href="https://www.facebook.com/nyaratakumi">Facebook</a></p>
-              <p><a href="https://github.com/nyaratakumi">GitHub</a></p>
+              <p><a href="https://twitter.com/nrtkumi">Twitter</a></p>
+              <p><a href="https://www.facebook.com/nrtkumi">Facebook</a></p>
+              <p><a href="https://github.com/nrtkumi">GitHub</a></p>
               <br/>
               <p>or</p>
               <br/>
